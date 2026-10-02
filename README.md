@@ -79,12 +79,12 @@ Base URL lokal: `http://localhost:3000`
 | `PUT` | `/loans/:id` | Memperbarui data berdasarkan ID |
 | `DELETE` | `/loans/:id` | Menghapus data berdasarkan ID |
 | `GET` | `/loans?status=Terlambat` | Memfilter berdasarkan status |
-| `GET` | `/loans?member_name=Budi` | Mencari berdasarkan nama anggota |
+| `GET` | `/loans?member_name=Aisyah` | Mencari berdasarkan nama anggota |
 
 Filter `status` dan `member_name` dapat digabungkan:
 
 ```http
-GET /loans?status=Dipinjam&member_name=Budi
+GET /loans?status=Dipinjam&member_name=Aisyah
 ```
 
 ## Contoh Request dan Response
@@ -98,8 +98,8 @@ Content-Type: application/json
 
 ```json
 {
-  "member_name": "Budi Santoso",
-  "member_email": "budi@example.com",
+  "member_name": "Aisyah Apriliani Putri",
+  "member_email": "aisyahaprilia1515@gmail.com",
   "book_title": "Laskar Pelangi",
   "book_isbn": "9789793062792",
   "loan_date": "2026-10-02",
@@ -116,8 +116,8 @@ Contoh response `201 Created`:
   "message": "Data peminjaman berhasil dibuat.",
   "data": {
     "id": "6a114e44-50a8-4c30-a43f-7c769263ed1e",
-    "member_name": "Budi Santoso",
-    "member_email": "budi@example.com",
+    "member_name": "Aisyah Apriliani Putri",
+    "member_email": "aisyahaprilia1515@gmail.com",
     "book_title": "Laskar Pelangi",
     "book_isbn": "9789793062792",
     "loan_date": "2026-10-02",
@@ -145,8 +145,8 @@ Contoh response `200 OK`:
   "data": [
     {
       "id": "6a114e44-50a8-4c30-a43f-7c769263ed1e",
-      "member_name": "Budi Santoso",
-      "member_email": "budi@example.com",
+      "member_name": "Aisyah Apriliani Putri",
+      "member_email": "aisyahaprilia1515@gmail.com",
       "book_title": "Laskar Pelangi",
       "book_isbn": "9789793062792",
       "loan_date": "2026-10-02",
