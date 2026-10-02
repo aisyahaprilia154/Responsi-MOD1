@@ -256,10 +256,8 @@ Contoh response `200 OK`:
 
 ## Link Proyek
 
-- Repository GitHub: `BELUM_DIISI`
-- Base URL Vercel: `BELUM_DIISI`
-
-Kedua placeholder di atas perlu diganti setelah repository dan deployment dibuat.
+- Repository GitHub: https://github.com/aisyahaprilia154/Responsi-MOD1
+- Base URL Vercel: https://responsi-mod1.vercel.app
 
 ## Catatan Keamanan
 
